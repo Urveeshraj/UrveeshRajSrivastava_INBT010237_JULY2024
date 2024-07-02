@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('IMAGE40.jpeg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(2, 52, 63, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #F0EDCC;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #F0EDCC;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #02343F;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #02343F;
+}
+
+label {
+    color: #F0EDCC;
+    display: block;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F0EDCC;
+    color: #02343F;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #C2A980;
+    color: #02343F;
+}
+
+#translated-text-container {
+    background: #F0EDCC;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+#translated-text {
+    font-size: 18px;
+    color: #02343F;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
